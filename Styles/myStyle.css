@@ -1,0 +1,166 @@
+﻿body {
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+.btn-group, .mb-3 {
+    direction: rtl;
+}
+
+.mb-3 {
+    width: 250px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.onlyCard {
+    width: 90%;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.iconTemp {
+    font-size: 40pt;
+    display: inline-block;
+}
+
+.myLocsion div {
+    display: inline-block;
+}
+
+#ThisTemp {
+    text-align: left;
+}
+
+#ThisLoc {
+    font-size: 15pt;
+}
+
+.myLocsion {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.myfavorit {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+    .myfavorit button {
+        font-size: 10pt;
+    }
+
+.week {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.day {
+    width: 115px;
+    height: 100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.allCard {
+    width: 95%;
+    margin: auto;
+}
+
+.textDay {
+    text-align: center;
+    padding-left: 0px;
+}
+
+    .textDay:nth-child(1) {
+        margin-top: 10px
+    }
+
+.serchAll {
+    position: relative;
+}
+
+#SerchHelp {
+    position: absolute;
+    top: 38px;
+    right: 74px;
+    text-align: left;
+    z-index: 1;
+    background-color: white;
+    width: 175px;
+    border: solid;
+    border-width: 1px;
+    padding-left: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#erorrName, #erorrConect {
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+#mySerchCity {
+    direction: ltr;
+}
+
+.col-12 {
+    margin-left: 0px;
+}
+
+#erorrConect {
+    text-align: center;
+}
+#day1, #day2, #day3, #day4, #day5 {
+    font-size: 15pt;
+    font-weight: bold;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #78489D;
+    border-color: #78489D;
+}
+    .btn-primary:hover, .btn-primary:active {
+        background-color: #4D0A89;
+        border-color: #78489D;
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #78489D;
+        border-color: #78489D;
+    }
+
+.bg-light {
+    background-color: #EAD7FF !important;
+}
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #78489D;
+    border-color: #78489D;
+}
+    .btn-outline-secondary:hover, .btn-outline-secondary:active {
+        background-color: #4D0A89;
+        border-color: #78489D;
+    }
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background-color: #4D0A89;
+    border-color: #78489D;
+}
